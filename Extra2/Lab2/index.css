@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    float: left;
+}
+
+.bc-cadetblue {
+    background-color: cadetblue;
+}
+
+.bc-chartreuse {
+    background-color: chartreuse;
+}
+
+.bc-lightgreen {
+    background-color: lightgreen;
+}
+
+.bc-brown {
+    background-color: brown;
+}
+
+.bc-darkseagreen {
+    background-color: darkseagreen;
+}
+
+.bc-lightcoral {
+    background-color: lightcoral;
+}
+
+.bc-cornflowerblue {
+    background-color: cornflowerblue;
+}
+
+.bc-blueviolet {
+    background-color: blueviolet;
+}
+
+.w-33,
+.w-50,
+.w-100 {
+    width: 100%;
+}
+
+.h-1x {
+    height: calc(30px * 1);
+}
+
+.h-2x {
+    height: calc(30px * 2);
+}
+
+.h-4x {
+    height: calc(30px * 4);
+}
+
+.h-8x {
+    height: calc(30px * 8);
+}
+
+
+@media only screen and (min-width: 720px) {
+    .w-100 {
+        width: 100%;
+    }
+    
+    .w-50 {
+        width: 50%;
+    }
+    
+    .w-33 {
+        width: calc(100% / 3);
+    }
+}

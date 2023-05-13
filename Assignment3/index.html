@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+    <p>Doan van1</p>
+    <p id="1">Doan van2</p>
+    <input id="1" type="button" value="Test">
+
+    <script>
+        document.getElementById("1").onclick = function() {
+            calculate();
+        }
+
+        function calculate(){
+            var student = {
+                
+                id: 1,
+                fullname: "Nguyen Tuan Anh",
+                email: "tuananh@gmail.com",
+            };
+
+            
+
+            alert(student.fullname);
+        }
+
+        
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+nav > a {
+    display: block;
+    float: left;
+    width: calc(100% / 6);
+    border-left: 2px solid #7EB1CB;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    background-color: #AEC5D1;
+}
+
+nav > a:hover {
+    background-color: #E1E8ED;
+}

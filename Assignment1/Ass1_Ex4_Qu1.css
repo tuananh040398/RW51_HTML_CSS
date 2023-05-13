@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+#vantrang {
+    color: orange;
+}
+
+.like {
+    color: white;
+}
+
+.thich {
+    background-color: #1877F2;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.chiase {
+    background-color: #1877F2;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.thatnghiep1 {
+    font-weight: bold;
+    background-color: #7a7a7a;
+    color: #ffffff;
+}
+
+.thatnghiep2 {
+    font-weight: bold;
+    background-color: #7a7a7a;
+    color: #ffffff;
+}
+
+figure {
+    margin-left: 30px;
+}
+
+.title4 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 50px;
+}

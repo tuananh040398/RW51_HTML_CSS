@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+nav>ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+nav>ul>li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    width: calc(100% / 6);
+    border-left: 2px solid #7EB1CB;
+    height: 50px;
+    box-sizing: border-box;
+
+
+    font-weight: bold;
+    background-color: #AEC5D1;
+}
+
+nav>ul>li>a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav>ul>li>a:hover {
+    background-color: #E1E8ED;
+}
